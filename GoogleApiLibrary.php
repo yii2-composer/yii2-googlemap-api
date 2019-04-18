@@ -517,7 +517,6 @@ class GoogleApiLibrary extends \yii\base\Component
                 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
                 $response = curl_exec($ch);
                 curl_close($ch);
-                echo $response;exit;
             } catch (\Exception $e) {
                 $msg = (isset($e->errorInfo[2])) ? $e->errorInfo[2] : $e->getMessage();
                 if (!$this->quiet) {

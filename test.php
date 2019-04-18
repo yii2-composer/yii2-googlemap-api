@@ -17,8 +17,8 @@ require_once('vendor/yiisoft/yii2/Yii.php');
 $app = Yii::createObject([
     'class' => 'liyifei\googleapi\GoogleApiLibrary',
     'geocodeApiUrl' => 'https://maps.google.cn',
-    'geocode_api_key' => 'AIzaSyCwAw5r1MJRTGQoz_phkuJhx37BJZXNg8E'
+    'geocode_api_key' => 'AIzaSyCwAw5r1MJRTGQoz_phkuJhx37BJZXNg8E',
 ]);
 
 
-print_r($app->getGeoCodeObject('江苏常州太湖东路9-1号'));
+print_r($app->getGeoCodeObject('江苏省常州市戚墅堰'));

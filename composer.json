@@ -1,5 +1,5 @@
 {
-  "name": "liyifei/yii2-google-api",
+  "name": "liyifei/yii2-googlemap-api",
   "description": "A collection of google map api calls, staticmap, geocode, iframe, for google api v3",
   "type": "yii2-extension",
   "keywords": ["yii2","google","api","google map","extension"],
